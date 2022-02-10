@@ -33,6 +33,7 @@ export const Home = () => {
           style={stylesHome.input}
         />
         <TouchableOpacity
+          testID="addButton"
           style={stylesHome.button}
           activeOpacity={0.7}
           onPress={handleAddNewTask}>
